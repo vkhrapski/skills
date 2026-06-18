@@ -34,11 +34,11 @@ The file content must follow this exact structure, ready to paste into Jira:
  
 Short, specific title. No brackets or prefixes. Describes what failed and where.
 Examples:
-- `Apex Trigger Exception — TaskTrigger AfterInsert on TripAdvisor`
+- `Apex Trigger Exception — TaskTrigger AfterInsert`
 - `Flow Error — Check or Wire Closed Won`
 - `Batch Job Failure — B2B Price Override (Validation Error)`
 - `EmailToCase Failure — Unable to Create Case from Inbound Email`
-- `Email Deliverability Alert — TripAdvisor Org (00DA0000000IORf)`
+- `Email Deliverability Alert — XXX Org (00D00000000000)`
 **Context**
  
 2–4 sentences. What happened, when, and in what environment. Reference the org name, job ID, flow name, trigger name, or run name if present. Explain why this matters (e.g. blocks a live process, affects customer data, causes case creation to fail, impacts revenue operations).
